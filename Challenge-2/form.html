@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challenge-2</title>
+  <link rel="stylesheet" href="/Form-Challenge/Challenge-2/stylesheet.css">
+</head>
+<body>
+  <div id="form-container">
+    <div class="form">
+      <h1>Sign Up</h1>
+      <p>Welcome to our page</p>
+      <form>
+        <div class="form-group">
+          <label for="first-name">First Name:</label>
+          <input type="text"name="First-name"id="first-name" placeholder="John" required>
+        </div>
+        <div class="form-group">
+          <label for="middle-name">Middle Name:</label>
+          <input type="text"name="Middle name"id="middle-name" placeholder="Bamidele" required>
+        </div>
+        <div class="form-group">
+          <label for="last-name">Last Name:</label>
+          <input type="text"name="Last name"id="last-name" placeholder="Doe" required>
+        </div>
+        <div class="form-group">
+          <label for="email-address">Email:</label>
+          <input type="email"name="Email"id="email" placeholder="johndoe@gmail.com" required>
+        </div>
+        <div class="form-group">
+          <label for="age">Age:</label>
+          <input type="number"name="Age"id="age" placeholder="Select age" required>
+        </div>
+        <div class="form-group">
+          <label for="birthdate">Birthdate:</label>
+          <input type="date"name="Date of Birth"id="birthdate">
+        </div>
+        <!-- <div class="form-group">
+          <label for="gender">Gender:</label>
+          <input type="radio"name="gender"value="male"id="gender" class="gender">Male
+          <input type="radio"name="gender"value="female"id="gender">Female
+        </div> -->
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password"name="Password"id="password" placeholder="Input password">
+        </div>
+        <div class="form-group">
+          <label for="passoword2">Confirm Password:</label>
+          <input type="password"name="Confirm Password"id="password" placeholder="Confirm password">
+        </div>
+        <div class="form-group">
+          <label for="info">How did you know about us:</label>
+          <select name="info" id="info" class="info">
+            <option value="#">Please select</option>
+            <option value="Whatsapp">Whatsapp</option>
+            <option value="Tiktok">Tiktok</option>
+            <option value="Twitter">Twitter</option>
+            <option value="Facebook">Facebook</option>
+            <option value="A friend">A friend </option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="bio">Bio:</label><br>
+          <textarea name="Bio" id="bio" cols="50" rows="5" placeholder="Tell us about you..." class="bio"></textarea>
+        </div>
+        <button type="submit" class="button">Sign Up</button>
+        <p class="bottom-text">By clicking the Sign Up button, you agree to our <a href="#">Terms and Condtions</a> and <a href="#">Privacy Policy</a></p>
+      </form>
+    </div>
+    <footer class="footer">
+      <p>Already have an account? <a href="#" class="login-button">Login</a></p>
+    </footer>
+  </div>
+</body>
+</html>
